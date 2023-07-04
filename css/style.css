@@ -1,0 +1,479 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-size: 14px;
+  line-height: 1.7em;
+  font-family: 'Bebas Neue', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Alfa Slab One', cursive;
+}
+a, a:hover{
+  text-decoration: none;
+}
+
+.header{
+  width: 100%;
+  background: url("../Images/banner.png") center top no-repeat;
+  background-size: cover;
+}
+.header .logo{
+  padding: 30px 0px 0px;
+}
+.header .top{
+  width: 100%;
+  display: block;
+  text-align: right;
+  padding: 30px 10px 0px 0px;
+  margin: 0px 10px 0px 0px;
+}
+.header .top .delivery{
+ width: 50px;
+ line-height: 50px;
+  padding: 10px 10px 10px 0px;
+}
+.header .top a{
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.7em;
+  font-weight: 500;
+  color: #3d2514;
+  font-weight: 500;
+  margin: 30px 0px 0px 0px;
+}
+
+.header .col-lg-12{
+  width: 100%;
+  float: left;
+}
+.header .nav-bar{
+  width: 100%;
+  float: left;
+  text-align: right;
+}
+.header .nav-bar li{
+  list-style: none;
+  display: inline-block;
+  list-style: none;
+}
+.header .nav-bar li a{
+  display: block;
+  font-family: 'Bebas Neue', sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 10px 0px 0px 30px;
+  color: #3d2514;
+}
+.header .nav-bar li a:hover{
+  font-size: 17px;
+  font-weight: 700;
+  transform: scale(1.1);
+  transition: 1s;
+}
+.header .nav-bar li a:focus{
+  font-size: 17px;
+  font-weight: 700;
+  transform: scale(1.1);
+}
+.banner{
+  width: 100%;
+  padding: 180px 0px;
+}
+.banner h4{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.2em;
+    border: 2px dashed #3d2514;
+    width: 60%;
+    color: #3d2514;
+    text-align: center;
+    padding: 5px 16px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    word-spacing: 3px;
+}
+.banner h1{
+  font-family: 'Alfa Slab One', cursive;
+    font-size: 100px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #3d2514;
+    text-shadow: 5px 6px #fee8bc;
+}
+.banner h2{
+   font-family: 'Alfa Slab One', cursive;
+    font-size: 60px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #3d2514;
+    text-shadow: 5px 6px #fee8bc;
+}
+.items{
+  width: 100%;
+  padding: 80px 40px;
+}
+.items .left-item{
+  width: 100%;
+  height: 61vh;
+  background: url("../Images/Brgr1.png") center top no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+}
+.items .left-item h4{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 30px 0px 0px 20px;
+}
+.items .left-item h1{
+  font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0px 0px 0px 20px;
+}
+.items .top-item{
+  width: 100%;
+  height: 28vh;
+  background: url("../Images/Brgr2.png") center top no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+}
+.items .top-item h4{
+  font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 30px 0px 0px 30px;
+}
+.items .top-item h1{
+   font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0px 0px 0px 30px;
+}
+.items .down-item{
+  width: 100%;
+  height: 28vh;
+  background: url("../Images/Brgr3.png") center top no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+     margin: 30px 0px 0px;
+}
+.items .down-item h4{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 30px 0px 0px 30px;
+}
+.items .down-item h1{
+   font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0px 0px 0px 30px;
+}
+/* feature start */
+.feature{
+  width: 100%;
+}
+.feature .title{
+  text-align: center;
+}
+.feature .title h4{
+  font-family: 'Bebas Neue', sans-serif;
+  margin: auto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2em;
+    background: #ffc045;
+    width: 20%;
+    text-transform: uppercase;
+    color: #3d2514;
+    padding: 10px 10px;
+}
+.feature .title h1{
+  font-family: 'Alfa Slab One', cursive;
+    font-size: 48px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #3d2514;
+    padding: 30px 0px 10px;
+}
+.feature .title p{
+    font-size: 14px;
+    line-height: 1.7em;
+    color: #3d2514;
+    padding: 0px 50px 0px;
+}
+.icon-box{
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+}
+.icon-box .iconpic{
+  width: 100%;
+}
+.icon-box .iconpic2{
+  width: 86%;
+}
+.feature .icon-box h4{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2em;
+  color: #3d2514;
+  text-transform: uppercase;
+  padding: 20px 0px 0px;
+}
+.icon-box p{
+  font-size: 14px;
+  font-weight: 400;
+  color: #3d2514;
+  line-height: 1.7em;
+  padding: 0px 0px 30px;
+}
+.icon-box .btn-primary{
+  font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 30px;
+    background: #bf2222;
+    border: 1px solid #bf2222;
+    border-radius: 2px;
+}
+.icon-box .btn-primary:hover{
+  color: #3d2514;
+    background: transparent;
+    border: 1px solid #bf2222;
+    transition: 1s;
+}
+.icon-box .btn-primary:focus{
+  color: #3d2514;
+    background: transparent;
+    border: 1px solid #bf2222;
+}
+.icon-box:hover{
+  box-shadow: 0px 6px 15px 1px rgb(161 159 159);
+  transform: scale(1.1);
+  transition: 1s;
+}
+.icon-box:focus{
+  box-shadow: 0px 6px 15px 1px rgb(161 159 159);
+  transform: scale(1.1);
+}
+.discover{
+  width: 100%;
+  margin: 40px 0px;
+}
+.cover{
+  width: 100%;
+  box-shadow: 0px 6px 15px 1px rgb(161 159 159);
+}
+.discover .cover .item{
+  width: 100%;
+  padding: 30px;
+}
+
+.discover .owl-carousel .item h4{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  color: #3d2514;
+  padding: 50px 0px 0px 20px;
+}
+.discover .owl-carousel .item h1{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  color: #3d2514;
+  padding: 0px 0px 0px 20px;
+}
+.discover .owl-carousel .item p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.9em;
+  color: #3d2514;
+  padding: 10px 40px 0px 20px;
+  letter-spacing: 1px;
+  overflow: hidden;
+}
+.discover .owl-theme .owl-nav.disabled+.owl-dots {
+    text-align: left;
+    padding: 30px;
+    margin: -140px 0px 0px 10px;
+}
+.discover .owl-theme .owl-dots .owl-dot span {
+    background: #495057;
+    border: 1px solid #495057;
+}
+.discover .owl-theme .owl-dots .owl-dot.active span{
+  background: #fd7e14;
+  border: 1px solid #fd7e14;
+  width: 15px;
+  height: 15px;
+  margin: 10px 7px 2px;
+}
+.contact{
+  width: 100%;
+    background: url("../Images/grp5.png") center top no-repeat;
+  background-size: cover;
+}
+.contact .title{
+  text-align: center;
+  padding: 0px 0px;
+}
+.contact .title h4{
+  font-family: 'Bebas Neue', sans-serif;
+  margin: auto;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #3d2514;
+    padding: 40px 0px 0px;
+}
+.contact .title h1{
+  font-family: 'Alfa Slab One', cursive;
+    font-size: 48px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #3d2514;
+    padding: 20px 0px 10px;
+}
+.contact-form{
+  width: 100%;
+  position: relative;
+  padding: 0px;
+  margin: 60px 0px 120px;
+  background: transparent;
+}
+.contact-form .form-control{
+  padding: 17px 15px;
+  border: 1px solid #444348;
+  background: transparent;
+  color: #444348;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 3px;
+}
+.contact-form .form-control:focus{
+  background: transparent;
+  border-color: #3d2514;
+    outline: 0;
+    box-shadow: 0 0 0 0.10rem #3d2514;
+}
+.contact-form .text-right{
+  text-align: right;
+}
+.contact-form .btn-primary{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 18px;
+    line-height: 1.2em;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 17px 96px;
+    background: #bf2222;  
+    border: 1px solid #bf2222;
+    border-radius: 8px;
+    letter-spacing: 2px;
+}
+.contact-form .btn-primary:hover{
+  color: #3d2514;
+    background: transparent;
+    border: 1px solid #3d2514;
+    transition: 1s;
+}
+.contact-form .btn-primary:focus{
+  color: #3d2514;
+    background: transparent;
+    border: 1px solid #3d2514;
+}
+.footer{
+  width: 100%;
+  margin: 0px 0px 20px;
+}
+.footer-item{
+  background: url("../Images/footer.png") center top no-repeat;
+  background-size: cover;
+  padding: 80px 20px 10px 40px;
+}
+.footer-item p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.9em;
+  letter-spacing: 1px;
+  color: #fff;
+  padding: 50px 160px 26px 0px;
+}
+.footer-item .reserver p{
+  padding: 0px 0px 0px 0px;
+  margin: 85px 0px 0px;
+}
+.footer-item .icons{
+  width: 100%;
+  margin: 140px 0px 0px 10px;
+}
+.footer-item .icons .fa{
+  font-size: 25px;
+  color: #fff;
+  padding: 5px;
+}
+.footer-item .icon span{
+  font-size: 16px;
+  padding: 0px 0px 0px 20px;
+}
+.footer-item .nav-bar{
+  width: 100%;
+  float: left;
+  text-align: right;
+}
+.footer-item .nav-bar li{
+  list-style: none;
+  display: inline-block;
+  list-style: none;
+}
+.footer-item .nav-bar li a {
+  display: block;
+    text-decoration: none;
+}
+.footer-item .nav-bar li a i{
+   display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 75px 0px 0px 10px;
+    color: #000;
+    background: #fff;
+    border-radius: 100%;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+}
